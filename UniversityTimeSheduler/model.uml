@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model</OriginalElement>
+  <nodes>
+    <node x="539.295362903226" y="389.21875">model.TPHall</node>
+    <node x="224.5584677419355" y="184.7006048387097">model.Teacher</node>
+    <node x="121.0" y="120.0">model.University</node>
+    <node x="700.2721774193549" y="152.96068548387098">model.User</node>
+    <node x="0.0" y="0.0">model.OverlapCapacity</node>
+    <node x="478.3508064516129" y="134.6491935483871">model.Hall</node>
+    <node x="586.3114919354839" y="166.38911290322582">model.Floor</node>
+    <node x="286.37701612903226" y="89.48084677419354">model.Group</node>
+    <node x="44.55846774193549" y="176.15524193548387">model.Slot</node>
+    <node x="816.6885080645162" y="370.2570564516129">model.manager</node>
+    <node x="406.33770161290323" y="188.36290322580646">model.Block</node>
+    <node x="756.5191532258065" y="99.2469758064516">model.Formation</node>
+    <node x="1078.25" y="0.0">model.ModuleOption</node>
+    <node x="1078.0" y="120.0">model.Module</node>
+    <node x="452.9576612903226" y="386.7772177419355">model.TDHall</node>
+    <node x="963.4677419354839" y="82.15625">model.Student</node>
+    <node x="525.5" y="0.0">model.Model</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.manager" target="model.Module">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Slot" target="model.Group">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Module" target="model.Model">
+      <point x="-18.75" y="-15.0" />
+      <point x="1096.75" y="50.0" />
+      <point x="590.6666666666667" y="50.0" />
+      <point x="31.166666666666742" y="15.0" />
+    </edge>
+    <edge source="model.University" target="model.manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Student" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="1020.5" y="60.0" />
+      <point x="585.0" y="60.0" />
+      <point x="25.5" y="15.0" />
+    </edge>
+    <edge source="model.Module" target="model.manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="899.0" y="70.0" />
+      <point x="579.3333333333334" y="70.0" />
+      <point x="19.83333333333337" y="15.0" />
+    </edge>
+    <edge source="model.Teacher" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="265.0" y="70.0" />
+      <point x="539.6666666666666" y="70.0" />
+      <point x="-19.83333333333337" y="15.0" />
+    </edge>
+    <edge source="model.University" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="164.0" y="60.0" />
+      <point x="534.0" y="60.0" />
+      <point x="-25.5" y="15.0" />
+    </edge>
+    <edge source="model.manager" target="model.Teacher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.Floor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Floor" target="model.manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.Formation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Floor" target="model.Block">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.TDHall">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Slot" target="model.Teacher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Formation" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="770.5" y="80.0" />
+      <point x="573.6666666666667" y="80.0" />
+      <point x="14.166666666666742" y="15.0" />
+    </edge>
+    <edge source="model.User" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="677.5" y="90.0" />
+      <point x="568.0" y="90.0" />
+      <point x="8.5" y="15.0" />
+    </edge>
+    <edge source="model.Slot" target="model.OverlapCapacity">
+      <point x="-13.5" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.TPHall" target="model.Hall">
+      <point x="0.0" y="-15.0" />
+      <point x="549.3800403225806" y="201.85685483870967" />
+      <point x="534.25" y="175.0" />
+      <point x="13.75" y="15.0" />
+    </edge>
+    <edge source="model.Block" target="model.manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Formation" target="model.manager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Group" target="model.Module">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Module" target="model.ModuleOption">
+      <point x="18.75" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="model.Block" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="441.5" y="90.0" />
+      <point x="551.0" y="90.0" />
+      <point x="-8.5" y="15.0" />
+    </edge>
+    <edge source="model.Slot" target="model.Model">
+      <point x="13.5" y="-15.0" />
+      <point x="87.5" y="50.0" />
+      <point x="528.3333333333334" y="50.0" />
+      <point x="-31.16666666666663" y="15.0" />
+    </edge>
+    <edge source="model.Hall" target="model.Floor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.Slot">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Hall" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="520.5" y="100.0" />
+      <point x="556.6666666666666" y="100.0" />
+      <point x="-2.8333333333333712" y="15.0" />
+    </edge>
+    <edge source="model.TDHall" target="model.Hall">
+      <point x="0.0" y="-15.0" />
+      <point x="505.0483870967742" y="205.51915322580643" />
+      <point x="506.75" y="175.0" />
+      <point x="-13.75" y="15.0" />
+    </edge>
+    <edge source="model.Group" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="356.5" y="80.0" />
+      <point x="545.3333333333334" y="80.0" />
+      <point x="-14.166666666666629" y="15.0" />
+    </edge>
+    <edge source="model.Floor" target="model.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="598.5" y="100.0" />
+      <point x="562.3333333333334" y="100.0" />
+      <point x="2.8333333333333712" y="15.0" />
+    </edge>
+    <edge source="model.manager" target="model.Group">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Module" target="model.Formation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.Slot" target="model.Hall">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.manager" target="model.Block">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8191577208918249" x="595.5" y="253.04989919354838" />
+  <SelectedNodes>
+    <node>model.Group</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

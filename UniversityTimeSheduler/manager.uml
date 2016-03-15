@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.manager</OriginalElement>
+  <nodes>
+    <node x="387.0000000000001" y="542.0">model.manager.FormationsManager</node>
+    <node x="1761.0" y="608.0">model.manager.FloorsHandler</node>
+    <node x="2332.0" y="630.0">model.manager.HallsHandler</node>
+    <node x="2050.0" y="619.0">model.manager.GroupHandler</node>
+    <node x="1384.0" y="586.5">model.manager.SlotsManager</node>
+    <node x="1124.0" y="619.0">model.manager.TeachersManager</node>
+    <node x="800.0000000000001" y="608.0">model.manager.ModuleHandler</node>
+    <node x="0.0" y="542.0">model.manager.BlocksManager</node>
+    <node x="1162.2324281150159" y="-10.964856230031955">model.manager.Manager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.manager.SlotsManager" target="model.manager.Manager">
+      <point x="0.0" y="-103.5" />
+      <point x="1562.5" y="522.0" />
+      <point x="1434.0625" y="522.0" />
+      <point x="30.8125" y="236.0" />
+    </edge>
+    <edge source="model.manager.TeachersManager" target="model.manager.Manager">
+      <point x="0.0" y="-71.0" />
+      <point x="1244.0" y="522.0" />
+      <point x="1372.4375" y="522.0" />
+      <point x="-30.8125" y="236.0" />
+    </edge>
+    <edge source="model.manager.GroupHandler" target="model.manager.Manager">
+      <point x="0.0" y="-71.0" />
+      <point x="2181.0" y="502.0" />
+      <point x="1557.3125" y="502.0" />
+      <point x="154.0625" y="236.0" />
+    </edge>
+    <edge source="model.manager.HallsHandler" target="model.manager.Manager">
+      <point x="0.0" y="-60.0" />
+      <point x="2442.5" y="492.0" />
+      <point x="1618.9375" y="492.0" />
+      <point x="215.6875" y="236.0" />
+    </edge>
+    <edge source="model.manager.FloorsHandler" target="model.manager.Manager">
+      <point x="0.0" y="-82.0" />
+      <point x="1895.5" y="512.0" />
+      <point x="1495.6875" y="512.0" />
+      <point x="92.4375" y="236.0" />
+    </edge>
+    <edge source="model.manager.FormationsManager" target="model.manager.Manager">
+      <point x="0.0" y="-148.0" />
+      <point x="583.5000000000001" y="502.0" />
+      <point x="1249.1875" y="502.0" />
+      <point x="-154.0625" y="236.0" />
+    </edge>
+    <edge source="model.manager.BlocksManager" target="model.manager.Manager">
+      <point x="0.0" y="-148.0" />
+      <point x="183.5" y="492.0" />
+      <point x="1187.5625" y="492.0" />
+      <point x="-215.6875" y="236.0" />
+    </edge>
+    <edge source="model.manager.ModuleHandler" target="model.manager.Manager">
+      <point x="-1.1368683772161603E-13" y="-82.0" />
+      <point x="952.0" y="512.0" />
+      <point x="1310.8125" y="512.0" />
+      <point x="-92.4375" y="236.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.36480186480186483" x="1276.5" y="418.99999999999994" />
+  <SelectedNodes>
+    <node>model.manager.Manager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
