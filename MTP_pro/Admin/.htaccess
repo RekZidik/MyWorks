@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "E:\Work\test\MTP_pro\Admin\.htpasswd"
+Require valid-user
